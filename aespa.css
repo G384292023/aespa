@@ -1,0 +1,131 @@
+body{
+    background-color:maroon;
+}
+.rogo h1{
+    display: inline-block;
+    margin-left: 150px;
+    border: 1px solid white;
+    padding: 1px 20px;
+    background-color:brown;
+    font-family: Impact;
+}
+.rogo img{
+    width: 80%;
+    height: 600px;
+    object-fit: fill;
+    display:block;
+    margin: 0 auto;
+}
+
+.first a{
+    color: darkkhaki;
+    display: flex;
+    justify-content: flex-end;
+}
+.first link{
+    border: 2px solid white;
+}
+.second{
+    display: flex;
+}
+.second table{
+    margin: 0 auto;
+    width: 50%;
+    background-color: brown;
+}
+.second img{
+    width: 25%;
+    height: 30%;
+    border-radius: 35%;
+    margin-left: 20px;
+}
+.name td{
+    text-align: center;
+}
+.aeri {
+    height: 350px;
+    width: auto;
+    background-image: url(IMG_5921.JPG);
+    background-size: cover;
+    transition: background-image 0.3s ease;
+
+}
+.aeri:hover{
+    background-image: url(IMG_5922.JPG);
+}
+.karina {
+    height: 350px;
+    width: auto;
+    background-image: url(IMG_5923.JPG);
+    background-size: cover;
+    transition: background-image 0.3s ease;
+
+}
+.karina:hover{
+    background-image: url(IMG_5924.JPG);
+}
+.winter {
+    height: 350px;
+    width: auto;
+    background-image: url(IMG_5917.JPG);
+    background-size: cover;
+    transition: background-image 0.3s ease;
+
+}
+.winter:hover{
+    background-image: url(IMG_5918.JPG);
+}
+.ningning {
+    height: 350px;
+    width: auto;
+    background-image: url(IMG_5919.JPG);
+    background-size: cover;
+    transition: background-image 0.3s ease;
+
+}
+.ningning:hover{
+    background-image: url(IMG_5920.JPG);
+}
+.third{
+    display: flex;
+}
+.third img{
+    width: 700px;
+    height: 290px;
+    object-fit: fill;
+    padding: 20px ;
+    display:block;
+    margin-left: 30px;
+    opacity: 0.7;
+}
+.third img:hover{
+    opacity: 1;
+}
+@keyframes scroll-img {
+    from {
+      transform: translateX(0);
+    }
+      to {
+      transform: translateX(-100%);
+    }
+    }
+    .imgwrap {
+      display: flex;
+      overflow: hidden;
+    }
+    .imglist {
+      display: flex;
+      list-style: none;
+      padding: 0
+    }
+    .imglist-left {
+      animation: scroll-img 30s infinite linear 0s both;
+    }
+    .img-item {
+      width: calc(100vw / 6);
+      margin: 20px;
+      object-fit: fill;
+    }
+    .img-item img {
+      width: 100%;
+    }
